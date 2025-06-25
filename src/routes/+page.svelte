@@ -2,7 +2,7 @@
 	import { onMount } from "svelte";
 
 	let activeSlide = 0;
-	let interval;
+	let interval: ReturnType<typeof setInterval> | undefined;
 
 	const heroSlides = [
 		{
