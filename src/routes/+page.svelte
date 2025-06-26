@@ -25,7 +25,7 @@
 			content: "Siapkan dirimu! Pendaftaran tim segera dibuka.",
 			image_url:
 				"https://images.unsplash.com/photo-1504450758481-7338eba7524a?q=80&w=1169&auto=format&fit=crop",
-			link_url: "#event",
+			link_url: "#",
 		},
 	];
 
@@ -134,7 +134,7 @@
 			kemampuanmu di lapangan melawan tim terbaik dari seluruh Indonesia.
 		</p>
 		<a
-			href="#event"
+			href="#"
 			class="inline-block text-white bg-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition shadow"
 			>Ikuti Event</a
 		>
