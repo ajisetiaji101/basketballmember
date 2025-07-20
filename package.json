@@ -17,6 +17,7 @@
 		"@sveltejs/adapter-node": "^5.2.12",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@types/qrcode": "^1.5.5",
 		"svelte": "^5.25.0",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
@@ -26,6 +27,8 @@
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.10",
 		"lucide-svelte": "^0.523.0",
+		"motion-svelte": "^0.0.1",
+		"qrcode": "^1.5.4",
 		"tailwindcss": "^4.1.10"
 	}
 }

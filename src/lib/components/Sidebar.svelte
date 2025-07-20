@@ -8,18 +8,21 @@
         User,
         PersonStanding,
         Info,
+        Club,
+        ClubIcon,
     } from "lucide-svelte";
     import { page } from "$app/stores";
     import { derived } from "svelte/store";
 
     const menus = [
-        { name: "Dashboard", icon: Home, path: "/" },
-        { name: "Profile", icon: User, path: "/profile" },
-        { name: "Pembayaran", icon: FileText, path: "/posts" },
-        { name: "Event", icon: Image, path: "/media" },
-        { name: "Member", icon: PersonStanding, path: "/members" },
-        { name: "Subscription", icon: Info, path: "/subscriptions" },
-        { name: "Settings", icon: Settings, path: "/settings" },
+        { name: "Dashboard", icon: Home, path: "/dashboard" },
+        { name: "Profile", icon: User, path: "/dashboard/profile" },
+        { name: "Pembayaran", icon: FileText, path: "/dashboard/pembayaran" },
+        { name: "Event", icon: Image, path: "/dashboard/events" },
+        { name: "Member", icon: PersonStanding, path: "/dashboard/members" },
+        { name: "Subscription", icon: Info, path: "/dashboard/subscriptions" },
+        { name: "Settings", icon: Settings, path: "/dashboard/settings" },
+        { name: "Tim", icon: ClubIcon, path: "/dashboard/tim" },
     ];
 
     const currentPath = derived(page, ($page) => $page.url.pathname);
